@@ -1,10 +1,10 @@
 import requests
 
-BEARER_TOKEN = "jkhl13h123h23ljskjad2132spdhau"
-SHEETY_ENDPOINT = "https://api.sheety.co/a3918f6f853a5503c7151fca01b21656/flightDeals/arkusz1"
+BEARER_TOKEN = "BEARER_TOKEN"
+SHEETY_ENDPOINT = "SHEETY_ENDPOINT_JSON"
 
 KIWI_LOCATION_ENDPOINT = "https://tequila-api.kiwi.com/locations/query"
-KIWI_API_KEY = "ZcPV6_RF39_LzHWy3lt1Jp9jkCQ2bsiI"
+KIWI_API_KEY = "KIWI_API"
 
 HEADER = {
     "apikey": KIWI_API_KEY

@@ -7,7 +7,7 @@ from data_manager import get_iata_code, HEADER
 
 
 KIWI_SEARCH_ENDPOINT = "https://tequila-api.kiwi.com/v2/search"
-KIWI_API_KEY = "ZcPV6_RF39_LzHWy3lt1Jp9jkCQ2bsiI"
+KIWI_API_KEY = "KIWI_API"
 
 
 stored_flight_data = None

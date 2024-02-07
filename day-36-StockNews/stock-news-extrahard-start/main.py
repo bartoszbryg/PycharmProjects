@@ -6,13 +6,13 @@ from twilio.rest import Client
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 
-API_KEY_FOR_STOCK_MARKET = "JFQKHUA5FNEL3N7G"
-API_KEY_FOR_NEWS = "eee1314eb4c04130a4459c07d4619de2"
+API_KEY_FOR_STOCK_MARKET = "API_KEY_FOR_STOCK_MARKET"
+API_KEY_FOR_NEWS = "API_KEY_FOR_NEWS"
 
-API_KEY_FOR_SMS = "ACbffd7f0385ab67bc66d979655d3f680f"
-AUTH_TOKEN = "e9edb5b9c0f3bd8ef90630cbdc57ec50"
-MY_TWILIO_PHONE_NUM = "+12184234816"
-MY_PHONE_NUM = "+48737462400"
+API_KEY_FOR_SMS = "API_KEY_FOR_SMS"
+AUTH_TOKEN = "AUTH_TOKEN"
+MY_TWILIO_PHONE_NUM = "TWILIO PHONE NUM"
+MY_PHONE_NUM = "MY_NUMBER"
 
 
 ## STEP 1: Use https://www.alphavantage.co
@@ -167,20 +167,3 @@ elif increase_percentage <= -3:
     increase_sign = "🔻"
     increase_percentage = abs(increase_percentage)
     send_sms()
-
-
-
-
-
-
-#Optional: Format the SMS message like this: 
-"""
-TSLA: 🔺2%
-Headline: Were Hedge Funds Right About Piling Into Tesla Inc. (TSLA)?. 
-Brief: We at Insider Monkey have gone over 821 13F filings that hedge funds and prominent investors are required to file by the SEC The 13F filings show the funds' and investors' portfolio positions as of March 31st, near the height of the coronavirus market crash.
-or
-"TSLA: 🔻5%
-Headline: Were Hedge Funds Right About Piling Into Tesla Inc. (TSLA)?. 
-Brief: We at Insider Monkey have gone over 821 13F filings that hedge funds and prominent investors are required to file by the SEC The 13F filings show the funds' and investors' portfolio positions as of March 31st, near the height of the coronavirus market crash.
-"""
-

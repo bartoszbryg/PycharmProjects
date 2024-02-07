@@ -22,8 +22,8 @@ for _ in range(len(data["name"].tolist())):
 
 #  4. Send the letter generated in step 3 to that person's email address.
 def send_email(to_who, email_message):
-    my_email = "plywak.br@gmail.com"
-    password = "ntsnylrjldrjxtpz"
+    my_email = "EMAIL"
+    password = "PASSWORD"
 
     receiver_email = to_who
 
